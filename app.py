@@ -4,7 +4,7 @@ app = Flask(__name__)
 from pymongo import MongoClient
 client = MongoClient('mongodb+srv://test:sparta@Cluster0.88k4h.mongodb.net/Cluster0?retryWrites=true&w=majority')
 db = client.dbsparta
-# 이거 몽고데이터베이스 본인껄로 바꿔주세요!
+
 
 @app.route('/')
 def home():
